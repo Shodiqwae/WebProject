@@ -84,8 +84,9 @@
                 <nav class="navbar bg-secondary-subtle">
                     <h6 style="height: 10px; margin-left: 10px; font-family: 'Heebo' , sans-serif;">item list</h6>
                        <ul class="list-group" id="result"></ul>
+                       
                     <div class="box">
-                        <i class='bx bx-search bx-sm'></i>
+                        <input type="text" id="searchInput" placeholder="Search...">
                         <i class='bx bx-menu bx-sm'></i>
                         <i class='bx bx-sort-alt-2 bx-sm'></i>
                     </div>
@@ -96,7 +97,7 @@
 
                     <div class="border border-success" style="height: 70vh;  margin-top: 10px; overflow-y: scroll;">
                         <div class="row col-sm-12 col-md-10 col-lg-9" >
-                            <div class="col-2" style="width: 8pc;">
+                            <div class="col-2" >
                                 <div class="cards" onclick="tambahpesanan('Egg Sandwich', 1, 35000 )">
                                     <div class="in-cards">
                                         <img src="asset/710833bb99c7a01ebeb8cb99a96a8349.jpg" class="card-img-top"
@@ -106,7 +107,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-2" style="width: 8pc;">
+                            <div class="col-2" >
                                 <div class="cards" onclick="tambahpesanan('Ham (Chicken)', 1, 45000 )">
                                     <div class="in-cards">
                                         <img src="asset/images.jpeg" class="card-img-top" style="height: 95px;">
@@ -115,7 +116,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-2" style="width: 8pc;">
+                            <div class="col-2" >
                                 <div class="cards" onclick="tambahpesanan('Ham Cheese', 1, 40000)">
                                     <div class="in-cards">
                                         <img src="asset/5a0cb9995a50900317ce78aac7f68ba0.jpg" class="card-img-top"
@@ -125,7 +126,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-2" style="width: 8pc;">
+                            <div class="col-2" >
                                 <div class="cards" onclick="tambahpesanan('Junior Veg Burger', 1, 30000)">
                                     <div class="in-cards">
                                         <img src="asset/download.jpeg" class="card-img-top"
@@ -136,7 +137,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-2" style="width: 8pc;">
+                            <div class="col-2" >
                                 <div class="cards" onclick="tambahpesanan('Masala Cola', 1, 25000)">
                                     <div class="in-cards">
                                         <img src="asset/download (1).jpeg" class="card-img-top"
@@ -146,7 +147,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-2" style="width: 8pc;">
+                            <div class="col-2" >
                                 <div class="cards" onclick="tambahpesanan('Mutton Burger', 1, 37000)">
                                     <div class="in-cards">
                                         <img src="asset/39e97f890fb372074fa0e06e202ef665.jpg" class="card-img-top"
@@ -156,7 +157,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-2" style="width: 8pc;">
+                            <div class="col-2" >
                                 <div class="cards" onclick="tambahpesanan('Fish Burger', 1, 22000)">
                                     <div class="in-cards">
                                         <img src="asset/fish.jpeg" class="card-img-top"
@@ -166,7 +167,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-2" style="width: 8pc;">
+                            <div class="col-2" >
                                 <div class="cards" onclick="tambahpesanan('Ham Burger', 1, 20000)">
                                     <div class="in-cards" >
                                         <img src="asset/Ham.jpeg" class="card-img-top"
@@ -176,7 +177,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-2" style="width: 8pc;">
+                            <div class="col-2" >
                                 <div class="cards" onclick="tambahpesanan('Ice Lemon Masala', 1, 15000)">
                                     <div class="in-cards">
                                         <img src="asset/ice.jpeg" class="card-img-top"
@@ -186,7 +187,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-2" style="width: 8pc;">
+                            <div class="col-2" >
                                 <div class="cards" onclick="tambahpesanan('Lassi Salted', 1, 18000)">
                                     <div class="in-cards">
                                         <img src="asset/lassi.jpeg" class="card-img-top"
@@ -196,7 +197,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-2" style="width: 8pc;">
+                            <div class="col-2" >
                                 <div class="cards" onclick="tambahpesanan('Mint Lemonade', 1, 17000)">
                                     <div class="in-cards">
                                         <img src="asset/download (2).jpeg" class="card-img-top"
@@ -206,7 +207,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-2" style="width: 8pc;">
+                            <div class="col-2" >
                                 <div class="cards" onclick="tambahpesanan('Mutton Kebab Burger', 1, 27000)">
                                     <div class="in-cards">
                                         <img src="asset/download (3).jpeg" class="card-img-top"
@@ -218,7 +219,7 @@
                             </div>
                         
                         
-                            <div class="col-2" style="width: 8pc;">
+                            <div class="col-2" >
                                 <div class="cards" onclick="tambahpesanan('Green Apple Melon', 1, 17000)">
                                     <div class="in-cards">
                                         <img src="asset/green.jpeg" class="card-img-top"
@@ -228,7 +229,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-2" style="width: 8pc;">
+                            <div class="col-2" >
                                 <div class="cards" onclick="tambahpesanan('Ham Cheese 2', 1, 16000)">
                                     <div class="in-cards">
                                         <img src="asset/214825-christys-awesome-hot-ham-and-cheese-3x4-422-copy-5e0318b2a014457f8c2d46b55a4ddee3.jpg"  class="card-img-top"
@@ -238,7 +239,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-2" style="width: 8pc;">
+                            <div class="col-2" >
                                 <div class="cards" onclick="tambahpesanan('Junior Chicken Burger', 1, 19000)">
                                     <div class="in-cards">
                                         <img src="asset/download (4).jpeg" class="card-img-top"
@@ -248,7 +249,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-2" style="width: 8pc;">
+                            <div class="col-2" >
                                 <div class="cards" onclick="tambahpesanan('Lassi Sweet', 1, 15000)">
                                     <div class="in-cards">
                                         <img src="asset/download (5).jpeg" class="card-img-top"
@@ -258,7 +259,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-2" style="width: 8pc;">
+                            <div class="col-2" >
                                 <div class="cards"  onclick="tambahpesanan('Mushroom Cheese', 1, 35000)">
                                     <div class="in-cards">
                                         <img src="asset/mushrom.jpg" class="card-img-top"
@@ -268,7 +269,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-2" style="width: 8pc;">
+                            <div class="col-2" >
                                 <div class="cards"  onclick="tambahpesanan('Mutton King Burger', 1, 35000)">
                                     <div class="in-cards">
                                         <img src="asset/king.jpg" class="card-img-top"
@@ -285,8 +286,8 @@
                 </section>
             </div>
         </div>
-        <div class="tombol-submit" style="text-align: right;  margin-top: 10px;">
-            <button onclick="print()" class="btn btn-primary" style="width: 15pc;">
+        <div class="tombol-submit" style=" text-align: left;  margin-top: 10px; ">
+            <button onclick="print()" class="btn btn-primary" style="width: 25pc;">
                 <p>Payment</p>
 
                 <p><i class='bx bx-printer'></i>(CTRL + P)</p>
@@ -303,7 +304,12 @@
 </body>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
 <script>
+    
+
+    // Attach the filterItems function to the input field and search icon
+  
   
   function print() {
       var contentDiv = document.getElementById('content');
@@ -380,6 +386,23 @@
         } 
 
     }
+    $(document).ready(function () {
+        $('#searchInput').on('input', filterItems);
+    });
+
+    function filterItems() {
+        var query = $('#searchInput').val().toLowerCase();
+        $('.cards').each(function () {
+            var itemName = $(this).find('p').text().toLowerCase();
+            if (itemName.includes(query)) {
+                $(this).show();
+            } else {
+                $(this).hide();
+            }
+        });
+    }
+
+    
  
 
 </script>
